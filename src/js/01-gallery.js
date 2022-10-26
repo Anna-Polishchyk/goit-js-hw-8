@@ -38,7 +38,7 @@ const cardMarkup = galleryItems.reduce((acc, item) => {
 refs.cardContainer.insertAdjacentHTML('beforeend', cardMarkup);
 console.log(refs.cardContainer);
 
-var lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new SimpleLightbox('.gallery a', {
     animationSpeed: 150,
     captionsData: 'alt',
     captionsDelay: 250,
